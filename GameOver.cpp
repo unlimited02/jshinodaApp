@@ -13,6 +13,7 @@ GameOver::GameOver()
 
 GameOver::~GameOver()
 {
+    CCLOG("テスト");
     this->removeAllChildren();
 }
 
