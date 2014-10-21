@@ -39,6 +39,7 @@ Scene* MainScene::createScene()
 
 bool MainScene::init()
 {
+    CCLOG("プルリクエスト用");
     if ( !Layer::init() )
     {
         return false;
